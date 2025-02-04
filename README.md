@@ -13,12 +13,10 @@ https://github.com/minecraftHCX/forge-webui_tx-fix/
 
 将代码复制在终端；报错问题请找GPT解决！
 
-安装脚本：
-git clone --no-checkout https://github.com/tangxintx/forge-webui_tx-fix.git /tmp/forge-webui_tx-fix
-cd /tmp/forge-webui_tx-fix
-git archive --format=tar HEAD | tar -x -C /workspace/
-cd ~
-rm -rf /tmp/forge-webui_tx-fix
+安装项目：
+wget https://github.com/tangxintx/forge-webui_tx-fix/archive/refs/heads/main.zip -O /tmp/forge-webui_tx-fix.zip
+unzip /tmp/forge-webui_tx-fix.zip -d /workspace/
+rm /tmp/forge-webui_tx-fix.zip
 
 安装依赖：
 cd /workspace/ 
