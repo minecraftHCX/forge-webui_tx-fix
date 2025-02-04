@@ -22,6 +22,7 @@ bash /workspace/forge-webui.sh
 
 安装配置ngrok：
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz tar -xvzf ngrok-stable-*.tgz
+
 ngrok authtoken YOUR_AUTHTOKEN 
 #YOUR_AUTHTOKEN替换为你在ngrok官网中获取的实际token
 
