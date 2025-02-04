@@ -22,10 +22,12 @@ rm -rf /tmp/forge-webui_tx-fix
 
 安装依赖：
 cd /workspace/ 
+
 bash forge-install.sh
 
 启用forge：
 cd /workspace/ 
+
 bash forge-webui.sh
 
 安装配置ngrok：
