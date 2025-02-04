@@ -19,14 +19,14 @@ git clone https://github.com/tangxintx/forge-webui_tx-fix.git
 安装依赖：
 cd /workspace/forge-webui_tx-fix-main
 
-chmod +x forge-install.sh
+赋予运行权限：chmod +x forge-install.sh
 
 bash forge-install.sh
 
 下次启用forge：
-cd /workspace/forge-webui_tx-fix-main 
+cd /workspace/forge-webui_tx-fix-main/stable-diffusion-webui-forge 
 
-chmod +x forge-webui.sh
+赋予运行权限：chmod +x forge-webui.sh
 
 bash forge-webui.sh
 
