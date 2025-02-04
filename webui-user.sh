@@ -17,4 +17,5 @@ COMMANDLINE_ARGS=""
 #   --lora-dir $A1111_HOME/models/Lora"
 
 # Run the webui script (without exec to avoid replacing the shell process)
-/workspace/stable-diffusion-webui-forge/webui.sh -f
+/workspace/stable-diffusion-webui-forge/forge-webui.sh -f
+#这里的逻辑是webui-user.sh启动webui.sh并传递参数(现为forge-webui.sh)
