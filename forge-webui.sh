@@ -3,6 +3,8 @@
 # Please do not make any changes to this file,  #
 # change the variables in webui-user.sh instead #
 #################################################
+chmod +x webui.sh
+chmod +x webui-user.sh
 echo "Starting script: $(basename "$0")"
 echo "Shell level: $SHLVL"
 echo "Current working directory: $(pwd)"
