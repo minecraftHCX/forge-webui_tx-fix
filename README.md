@@ -18,16 +18,21 @@ git clone https://github.com/tangxintx/forge-webui_tx-fix.git
 
 安装依赖：
 cd /workspace/forge-webui_tx-fix-main
+
 chmod +x forge-install.sh
+
 bash forge-install.sh
 
 下次启用forge：
 cd /workspace/forge-webui_tx-fix-main 
+
 chmod +x forge-webui.sh
+
 bash forge-webui.sh
 
 安装配置ngrok：
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz 
+
 tar -xvzf ngrok-stable-*.tgz
 
 ngrok authtoken YOUR_AUTHTOKEN 
