@@ -30,7 +30,7 @@ ngrok authtoken YOUR_AUTHTOKEN
 #YOUR_AUTHTOKEN替换为你在ngrok官网中获取的实际token
 
 默认端口7860，ngrok代理7860端口：
-ngrok http http://localhost:7860
+ngrok http://localhost:7860
 
 最后打开ngrok给的链接
 
