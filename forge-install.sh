@@ -27,7 +27,7 @@ echo -e "开始安装必要库...${NOCOLOR}"
 apt install libgl1-mesa-glx
 echo -e "${GREEN}开始安装Forge...${NOCOLOR}"
 git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git
-cd /workspace/stable-diffusion-webui-forge
+cd /workspace/forge-webui_tx-fix-main/stable-diffusion-webui-forge
 
 echo -e "${GREEN}开始安装修复补丁及对应环境...${NOCOLOR}"
 git clone https://github.com/minecraftHCX/huggingface_guess.git
@@ -36,10 +36,10 @@ pip install torch==2.3.1
 pip install torchvision==0.18.1
 pip install torchaudio==2.3.1
 pip install triton==2.3
-wget -O webui.sh https://dison331.us.kg:8888/down/g7kTR615bOtl.sh
+wget -O forge-webui.sh https://dison331.us.kg:8888/down/g7kTR615bOtl.sh
 wget -O webui-user.sh https://dison331.us.kg:8888/down/FS6YTSnAJP51.sh
 echo -e "${GREEN}赋予文件运行权限...${NOCOLOR}"
-chmod +x webui.sh
+chmod +x forge-webui.sh
 chmod +x webui-user.sh
 rest
 echo -e "说明\n1.启动forge请运行安装目录下的webui-user.sh。" > ./readme.txt
@@ -50,5 +50,5 @@ echo -e "内网穿透推荐使用cpolar（速度较慢，加载时间可能较�
 echo "说明文件已在安装目录下生成！请查阅readme.txt！"
 echo -e "${YELLOW}即将运行webui，期间可能会继续安装部分依赖，请耐心等待至出现webui访问地址_(:з」∠)_（默认地址为http://127.0.0.1:7860）${NOCOLOR}"
 read -p "准备好后，请按任意键继续！"
-cd /workspace/forge-webui_tx-fix-main
+cd /workspace/forge-webui_tx-fix-main/stable-diffusion-webui-forge
 bash forge-webui.sh
