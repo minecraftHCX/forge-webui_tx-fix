@@ -21,10 +21,10 @@ cd ~
 rm -rf /tmp/forge-webui_tx-fix
 
 安装依赖：
-bash /workspace/forge-install.sh
+cd /workspace/ bash forge-install.sh
 
 启用forge：
-bash /workspace/forge-webui.sh
+cd /workspace/ bash forge-webui.sh
 
 安装配置ngrok：
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz tar -xvzf ngrok-stable-*.tgz
