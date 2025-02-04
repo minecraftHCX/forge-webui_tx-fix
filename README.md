@@ -26,6 +26,7 @@ bash /workspace/forge-webui.sh
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz tar -xvzf ngrok-stable-*.tgz
 
 ngrok authtoken YOUR_AUTHTOKEN 
+
 #YOUR_AUTHTOKEN替换为你在ngrok官网中获取的实际token
 
 默认端口7860，ngrok代理7860端口：
