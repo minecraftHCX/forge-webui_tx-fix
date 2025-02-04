@@ -17,16 +17,12 @@ https://github.com/minecraftHCX/forge-webui_tx-fix/
 
 git clone https://github.com/minecraftHCX/forge-webui_tx-fix/
 
-解压zip包：
-
-apt-get install unzip
-
-unzip /workspace/forge-webui_tx-fix.zip -d /workspace/
-
 
 运行脚本：
 
-cd /workspace/forge-webui_tx-fix-main
+进入/workspace/forge-webui_tx-fix将install.sh移动至/workspace
+
+（因为改版的webui-user.sh使用了绝对路径）
 
 bash install.sh
 
