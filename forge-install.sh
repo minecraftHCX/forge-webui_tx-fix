@@ -50,4 +50,5 @@ echo -e "内网穿透推荐使用cpolar（速度较慢，加载时间可能较�
 echo "说明文件已在安装目录下生成！请查阅readme.txt！"
 echo -e "${YELLOW}即将运行webui，期间可能会继续安装部分依赖，请耐心等待至出现webui访问地址_(:з」∠)_（默认地址为http://127.0.0.1:7860）${NOCOLOR}"
 read -p "准备好后，请按任意键继续！"
-bash webui-user.sh
+cd /workspace/forge-webui_tx-fix-main
+bash forge-webui.sh
