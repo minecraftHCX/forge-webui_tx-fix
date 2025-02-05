@@ -13,4 +13,4 @@ forge-webui针对腾讯GPU工作空间部分特殊bug的修复版本
 
 5.命令行操作等常识作者不会教！自己去bing上面学会了再用！有问题虚心求教，没有人有义务为你进行解答，请不要随意攻击他人!"
 
-另：内网穿透新手建议参考此分支库，主要提供了ngrok的具体配置运行：https://github.com/tangxintx/forge-webui_tx-fix         【作者：tangxintx】（安装脚本没改完，运行会出bug，不建议使用此分支库的安装脚本）
+另：内网穿透新手建议参考此分支库，主要提供了ngrok的具体配置运行：https://github.com/tangxintx/forge-webui_tx-fix         【作者：tangxintx】（此分支库仅作为新手引导，最新脚本请以此仓库代码为准）
