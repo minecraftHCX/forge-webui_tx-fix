@@ -17,12 +17,12 @@ https://github.com/minecraftHCX/forge-webui_tx-fix/
 
 git clone https://github.com/minecraftHCX/forge-webui_tx-fix/
 
-解压zip包：
+~~解压zip包：~~
 
-apt-get install unzip
+~~apt-get install unzip~~
 
-unzip /workspace/forge-webui_tx-fix.zip -d /workspace/
-
+~~unzip /workspace/forge-webui_tx-fix.zip -d /workspace/~~
+拉取的库本身就是文件夹，不需要解压
 
 运行脚本：
 
