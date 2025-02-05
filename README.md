@@ -1,7 +1,7 @@
 # forge-webui_tx-fix
 forge-webui针对腾讯GPU工作空间部分特殊bug的修复版本
 
-警告
+# 警告
 
 1.本webui.sh基于腾讯GPU云工作平台进行了部分修改，可能会出现运行不稳定，出现疑难杂症等问题，不建议在其他环境使用
 
@@ -13,4 +13,7 @@ forge-webui针对腾讯GPU工作空间部分特殊bug的修复版本
 
 5.命令行操作等常识作者不会教！自己去bing上面学会了再用！有问题虚心求教，没有人有义务为你进行解答，请不要随意攻击他人!"
 
-另：内网穿透新手建议参考此分支库，主要提供了ngrok的具体配置运行：https://github.com/tangxintx/forge-webui_tx-fix         【作者：tangxintx】（此分支库仅作为新手引导，最新脚本请以此仓库代码为准）
+# 附录
+内网穿透新手建议参考此分支库，主要提供了ngrok的具体配置运行：[https://github.com/tangxintx/forge-webui_tx-fix](https://github.com/tangxintx/forge-webui-reference-instruction)         【作者：tangxintx】（此分支库仅作为新手引导，最新脚本请以此仓库代码为准）
+
+注意，分支的引导教程中git clone后生成的为文件夹，不是压缩包！！！请跳过解压步骤！！！（写到这了，但凡是个懂电脑的应该都在拉取后看得出来，这一步报错别来找我了！！！）
